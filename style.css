@@ -39,7 +39,7 @@ body {
 
   }
 
-.nav-item-name ul{
+.nav-item-title ul{
     list-style: none;
     gap: 32px;
     font-size: 1.3rem;
@@ -129,4 +129,60 @@ body {
   transform: scale(1.05);
   background-color: #ff6600;
   color: #fff;
+}
+
+.cur{
+   background-image: url('../assets/bg.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-bottom: 60px;
+   padding-top: 60px;
+}
+
+.c_ttl{
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.c_card{
+  display: flex;
+  flex-direction: column;
+  border-radius: 18px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 367px;
+  border: 2px solid seagreen;
+  height: 476px;
+}
+
+.c_cards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 80px;
+  margin-bottom: 80px;
+  gap: 28px;
+}
+
+.des{
+  font-size: 1rem;
+  padding: 0 40px;
+}
+
+.ca_ttl{
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.rm{
+  font-size: 1rem;
+  font-weight: Bold;
+  padding: 0 40px;
+}
+
+
+#neel1{
+  color: skyblue;
 }
