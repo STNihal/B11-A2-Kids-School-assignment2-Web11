@@ -103,7 +103,7 @@ body {
 #emp{
   color: orange;
 }
-#tvision{
+#tvis{
   color: skyblue;
 }
 
@@ -130,9 +130,9 @@ body {
   background-color: #ff6600;
   color: #fff;
 }
-
+/* cur */
 .cur{
-   background-image: url('../assets/bg.png');
+   background-image: url(../B11-A2-Kids-School-assignment2-Web11/assets/bg.png);
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -150,12 +150,13 @@ body {
   display: flex;
   flex-direction: column;
   border-radius: 18px;
-  justify-content: center;
+  justify-content: space-between; /* Ensures even spacing */
   align-items: center;
   text-align: center;
   width: 367px;
   border: 2px solid seagreen;
-  height: 476px;
+  height: 477px;
+  /* padding: 20px; */
 }
 
 .c_cards{
@@ -179,10 +180,63 @@ body {
 .rm{
   font-size: 1rem;
   font-weight: Bold;
-  padding: 0 40px;
+  padding: 10px 0;
+  
 }
 
+#bl{
+  border: 1px solid #DEF5FF;
+  background: linear-gradient(180deg, #DEF5FF, #FFFFFF 40%);
+}
 
-#neel1{
+#bl1{
   color: skyblue;
+}
+
+#yl{
+  border: 1px solid #FFF4DC;
+  background: linear-gradient(180deg, #FFF4DC, #FFFFFF 40%);
+}
+
+#yl1{
+  color:orange;
+}
+
+#pur{
+  border: 1px solid #F2E8FF;
+  background: linear-gradient(180deg, #F2E8FF, #FFFFFF 40%);
+}
+
+#pur1{
+  color: purple;
+}
+
+.scrl_btns{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.arrow_btn{
+  border: none;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  background-color: orange;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+  transition: all 0.3s ease;
+  cursor: grabbing;
+}
+
+.arrow_btn:hover{
+  transform: scale(1.1);
+  background-color: #ff6600;
 }
