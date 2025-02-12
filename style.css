@@ -444,6 +444,10 @@ body {
     font-size: 2rem;
   }
 
+  .button_orange{
+    display: none;
+ }
+
   /* k */
  .kid{
   flex-direction: column;
